@@ -10,18 +10,13 @@ class EmailParser
   attr_accessor :emails
   
   def initialized(emails)
-  
-  @emails = emails
-  
+    @emails = emails
   end
- 
     
   def parse
-  
     emails.split.collect do |address|
       address.split(',') 
-    end.flatten.uniq 
-
+    end.flatten.uniq
   end
 
 end
