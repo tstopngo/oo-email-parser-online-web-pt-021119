@@ -7,7 +7,7 @@ require 'pry'
 
 class EmailParser
 
-  attr_accessor :csv_emails
+  attr_accessor :namem :emails
   
   def initialized(csv_emails)
   
@@ -18,7 +18,7 @@ class EmailParser
     
   def parse
   
-  @emails.split(/[\s,]/)
+  
   
   end
 
