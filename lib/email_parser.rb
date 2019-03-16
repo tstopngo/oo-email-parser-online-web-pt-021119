@@ -7,7 +7,7 @@ require 'pry'
 
 class EmailParser
 
-  attr_accessor :namem :emails
+  attr_accessor :name, :emails
   
   def initialized(csv_emails)
   
