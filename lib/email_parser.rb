@@ -14,7 +14,7 @@ end
   
 def parse
 
-@emails.collect do |email|
+@emails.split(",")
 
 end
 
