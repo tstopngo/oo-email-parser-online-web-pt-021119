@@ -6,18 +6,18 @@
 
 class EmailParser
 
-attr_accessor :emails
-
-def initialized(emails)
-
-@emails = emails
-
-end
+  attr_accessor :emails
   
-def parse
-
-@emails.split(/[\s,]/)
-
-end
+  def initialized(emails)
+  
+  @emails = emails
+  
+  end
+    
+  def parse
+  
+  @emails.split(/[\s,]/)
+  
+  end
 
 end
