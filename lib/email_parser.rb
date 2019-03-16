@@ -14,6 +14,8 @@ end
   
 def parse
 
+@emails.collect do |email|
+
 end
 
 end
