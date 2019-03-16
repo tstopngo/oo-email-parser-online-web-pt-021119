@@ -14,7 +14,7 @@ class EmailParser
   @emails = emails
   
   end
-  binding.pry
+ 
     
   def parse
   
@@ -23,3 +23,5 @@ class EmailParser
   end
 
 end
+
+ binding.pry
