@@ -13,6 +13,7 @@ class EmailParser
   @emails = emails
   
   end
+  binding.pry
     
   def parse
   
